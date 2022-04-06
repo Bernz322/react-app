@@ -1,0 +1,11 @@
+div {
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.btn,
+.btn-warning,
+.btn-primary {
+  width: 170px;
+  margin: 10px;
+}
