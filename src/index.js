@@ -1,5 +1,5 @@
 import React from 'react'
-import ReactDom from 'react-dom'
+import ReactDOM from 'react-dom/client'
 // CSS import
 import './index.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
@@ -56,4 +56,5 @@ const ToDoListContents = () => {
 }
 
 // Render's components
-ReactDom.render(<ToDoList />, document.getElementById('root'))
+const root = ReactDOM.createRoot(document.getElementById('root'))
+root.render(<ToDoList />)
